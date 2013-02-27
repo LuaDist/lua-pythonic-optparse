@@ -1,0 +1,24 @@
+type = "x86_64"
+arch = "Ubuntu"
+author = "David Manura"
+depends = {
+[[lua ~> 5.1]],
+}
+
+desc = "pythonic.optparse - Command-line argument parsing similar to Python's optparse library"
+version = "0.1"
+maintainer = "Peter Kapec"
+files = {
+Runtime = {
+[[lib/lua/pythonic/optparse.lua]],
+}
+,
+Data = {
+[[share/lua-pythonic-optparse/COPYRIGHT]],
+}
+,
+}
+
+url = "https://github.com/davidm/lua-pythonic-optparse"
+name = "lua-pythonic-optparse"
+license = "MIT"
